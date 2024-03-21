@@ -56,7 +56,7 @@ git commit -m "init"
 git push --set-upstream origin main
 ```
 
-### 
+### Create a new branch and update README.md
 
 1. Create a new development branch
 ```
@@ -69,6 +69,32 @@ git checkout development
 ```
 
 3. Go to VSCode, open project 'new-project' and update README.md
+
+4. Commit the changes:
+```
+git add .
+git commit -m "init"
+```
+
+5. Push changes to a remote repository
+```
+git push origin development
+```
+
+6. Go to the branch main
+```
+git checkout main
+```
+
+7. Merge changes from the branch development into main branch
+```
+git merge development
+```
+
+8. Commit changes to the remote repository
+```
+git push --set-upstream origin main
+```
 
 
 ## Expected Results:
